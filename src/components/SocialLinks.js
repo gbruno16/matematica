@@ -29,7 +29,7 @@ const SocialLinks = ({ postNode, postPath, mobile }) => {
 
   return (
     <div className={styles.socialLinks}>
-      <RedditShareButton url={url} title={post.title}>
+      {/* <RedditShareButton url={url} title={post.title}>
         <RedditIcon round size={iconSize} />
         <RedditShareCount url={url}>
           {count => renderShareCount(count)}
@@ -56,9 +56,9 @@ const SocialLinks = ({ postNode, postPath, mobile }) => {
       </LinkedinShareButton>
       <TelegramShareButton url={url}>
         <TelegramIcon round size={iconSize} />
-      </TelegramShareButton>
+      </TelegramShareButton> */}
     </div>
-  )
+  ) 
 }
 
 export default SocialLinks
